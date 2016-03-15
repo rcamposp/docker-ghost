@@ -1,0 +1,7 @@
+ghost_blog:
+  image: ghost
+  volumes: 
+    - ./www:/var/lib/ghost
+  ports:
+    - 8080:2368
+  #command: bash -c "npm start --production"
